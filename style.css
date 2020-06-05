@@ -1,0 +1,66 @@
+.navbar-brand>img{
+    width: 100px;
+    height: 40px;
+}
+#navbar{
+    background-color: #4169E1 !important;
+}
+.nav-item{
+    font-weight: bold;
+}
+.nav-link{
+    color: white !important;
+}
+.dropdown-item:hover{
+    background-color: #4169E1;  
+    color: white !important;
+}
+#description{
+    margin-top: 30px;
+    text-align: justify;
+}
+#footer{
+    background-color: black;
+}
+#footinner{
+    color: white;
+    padding: 1em;
+}
+#copyr{
+    background-color: black;
+    margin-top: 2px;
+}
+#copyrin{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#head1{
+    background-color:#4169E1 ;
+    text-align: center;
+    color: white;
+}
+#message{
+    color: #4169E1;
+}
+#homebutton{
+    font-size: 30px;
+}
+.card{
+    width: 200px;
+    height: 350px;
+}
+#pro div{
+    text-align: center;
+    margin-top: 5px;
+    
+}
+#social{
+    font-size: 36px;
+}
+#contactinfo{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+

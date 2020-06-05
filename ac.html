@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          
+        </ul>
+        <span class="navbar-text">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Repairing
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+                <a class="dropdown-item" href="ac.html" >AC </a>
+                <a class="dropdown-item" href="fridge.html" >Fridge</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact-Us</a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </nav>
+  </div>
+  <br>
+
+    <div class="container">
+        <div class="container" id="head1">
+            <h1>Customer Order</h1>
+
+        </div>
+
+    <form>
+        
+        <div class="form-row">
+            <div class="form-group col-md-4 col-sm-12">
+                <label for="inputPassword4">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+              </div>
+          <div class="form-group col-md-4 col-sm-12">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="abc@example.com">
+          </div>
+          
+          <div class="form-group col-md-4 col-sm-12">
+            <label for="inputPassword4">Contact number</label>
+            <input type="number" class="form-control" id="contact" maxlength="11" placeholder="0333xxxxxxx">
+          </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-6 col-sm-12">
+          <label for="inputAddress">AC Name</label>
+          <input type="text" class="form-control" id="acname">
+        </div>
+        <div class="form-group col-md-6 col-sm-12">
+            <label for="inputState">Problem</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>Gas Problem</option>
+              <option>Circuit Problem</option>
+              <option>Electrical Problem</option>
+              <option>Service Problem</option>
+            </select>
+          </div>
+    </div>
+        <div class="form-row">
+            <div class="form-group col-md-6 col-sm-12">
+                <label for="inputState">AC Type</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Portable 110V</option>
+                  <option>Portable 220V</option>
+                  <option>Window 0.75 Ton</option>
+                  <option>Window 1 Ton</option>
+                  <option>Window 1.5 Ton</option>
+                </select>
+              </div>
+          <div class="form-group col-md-6 col-sm-12">
+            <label for="inputCity">Address</label>
+            <input type="text" class="form-control" id="address">
+          </div>
+          
+          
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+      </form>
+      
+    </div>
+    <br>
+    <div class="container-fluid" id="footer">
+      <div class="container" id="footinner">
+        
+      <p><u>Address</u></p>
+      <p>Shop#27 FAiz Mension Building Jackson Market Keamari, Karachi</p>
+      <p>P.C: 75260</p>
+      </div>
+    </div>
+    
+    <div class="container-fluid" id="copyr">
+      <div class="container" id="copyrin">
+        <i class="fa fa-copyright" aria-hidden="true">2020. All rights reserved</i>
+      </div>
+    </div>
+      
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
